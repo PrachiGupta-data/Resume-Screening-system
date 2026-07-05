@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.title("📄 Resume Screening")
 
 # Load Dataset
-df = pd.read_csv("Resume.xlsx")
+df = pd.read_excel("Resume.xlsx")
 
 # Get Categories
 categories = sorted(df["Category"].unique())
