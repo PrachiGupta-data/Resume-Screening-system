@@ -4,7 +4,7 @@ import pandas as pd
 st.title("👤 Candidate Details")
 
 # Load dataset
-df = pd.read_csv("Resume.csv")
+df = pd.read_csv("Resume.xlsx")
 
 # Select Category
 categories = sorted(df["Category"].unique())
