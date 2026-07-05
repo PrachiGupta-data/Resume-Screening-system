@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 st.set_page_config(
     page_title="Resume Screening System",
     page_icon="📄",
