@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title("📊 Resume Intelligence Dashboard")
 
 # Load dataset
-df = pd.read_csv("Resume.xlsx")
+df = pd.read_excel("Resume.xlsx")
 
 # ---------------------------
 # OVERVIEW SECTION
