@@ -41,7 +41,7 @@ It reduces manual effort in hiring and improves the speed of candidate shortlist
 
 ## 📂 Dataset
 
-- `Resume.csv` dataset is used
+- `Resume.xlsx` dataset is used
 - Contains resumes with categories like:
   - HR
   - ENGINEERING
