@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load Resume Dataset
-df = pd.read_csv("Resume.csv")
+df = pd.read_csv("Resume.xlsx")
 
 print("First 5 Rows:\n")
 print(df.head())
